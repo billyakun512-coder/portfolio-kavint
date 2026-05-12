@@ -3,5 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: '/portfolio-kavint/',
+  build: {
+    outDir: 'docs',
+  },
   plugins: [react()],
 })
